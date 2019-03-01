@@ -1,7 +1,7 @@
 node('maven'){
     stage('Checkout'){
         echo "Cloning the Repo"
-        git credentialsId: 'lokeshgithub', url: 'https://github.com/sanquestbatch2/batch2.git'
+        git credentialsId: 'mygitcred', url: 'https://github.com/amritlamsal123/pipeline.git'
     }
     
     stage('runningScript'){
